@@ -1,0 +1,15 @@
+{
+  "_LEIA": "Premissas para valuation de BANCO (lucro residual). Valores ILUSTRATIVOS. Rf, ERP e beta são buscados automaticamente (Tesouro, Damodaran, regressão) se omitidos; informe-os aqui só para sobrescrever, com fonte.",
+  "cenarios_roe": {
+    "pessimista": [0.05, 0.11],
+    "base": [0.08, 0.14],
+    "otimista": [0.11, 0.17]
+  },
+  "g": 0.06,
+  "payout": 0.30,
+  "_fontes": {
+    "cenarios_roe": "[ROE próximos 12 meses, ROE sustentável no ano 5]. Justificar com histórico (indicadores_banco.csv), guidance do RI e consenso",
+    "g": "Crescimento nominal de longo prazo: Focus IPCA + PIB do último ano disponível",
+    "payout": "Política de remuneração vigente (RI/fato relevante)"
+  }
+}

@@ -1,0 +1,10 @@
+# Memória pessoal de quem usa a skill (perfil, carteira, histórico): nunca vai para o Git
+.claude/skills/analise-investimentos/dados/
+# Relatórios gerados (contêm a carteira de quem rodou)
+relatorios/*
+!relatorios/premissas/
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

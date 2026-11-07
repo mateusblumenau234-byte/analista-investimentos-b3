@@ -1,0 +1,14 @@
+{
+  "cenarios_roe": {
+    "pessimista": [0.05, 0.11],
+    "base": [0.08, 0.14],
+    "otimista": [0.11, 0.17]
+  },
+  "g": 0.06,
+  "payout": 0.30,
+  "_fontes": {
+    "cenarios_roe": "ROE IFRS (CVM): 2021 13,7%, 2022 18,3%, 2023 18,2%, 2024 15,1%, 2025 7,4%, LTM jun/26 6,6%. Guidance original de ROE ajustado 2026: 10–13% (imprensa); 2T26 ROE ajustado 8,3%; BTG projeta ~4% no 3T26",
+    "g": "Focus 30/10/2026, ano 2029: IPCA 3,98% + PIB 2,0% ≈ 6% nominal",
+    "payout": "Política 2026 aprovada pelo conselho: 30% (Status Invest, Investidor10; confirmar no RI)"
+  }
+}
